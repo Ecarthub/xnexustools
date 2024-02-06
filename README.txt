@@ -19,3 +19,20 @@ OpenCV: pip install opencv-python
 Pytesseract: pip install pytesseract
 SciPy: pip install scipy
 NumPy: pip install numpy
+
+or
+
+You can just run this code 
+cd XNexustools
+pip install -r requirements.txt
+
+to run the XNexusTools.py
+python3 XNexusTools.py
+
+keep in mind that you want to run this code please follow my license.
+
+I hope you like it, if you don't mind you can donate to me.
+If you want contact me at srobincarl@gmail.com. This is for my tuition.
+'
+
+Thank you very much!!
