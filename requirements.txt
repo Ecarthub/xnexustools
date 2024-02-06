@@ -1,0 +1,5 @@
+opencv-python
+pytesseract
+scipy
+numpy
+face-recognition
