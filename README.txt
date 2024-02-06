@@ -1,3 +1,4 @@
+This program is used for converting text inside at the image to actual text and also speak convert into text.
 
 Sure, here's a clearer version of the instructions:
 
