@@ -22,7 +22,8 @@ NumPy: pip install numpy
 
 or
 
-You can just run this code 
+You can just run this code:]
+git clone https://github.com/Ecarthub/xnexustools.git
 cd XNexustools
 pip install -r requirements.txt
 
