@@ -29,7 +29,7 @@ pip install -r requirements.txt
 to run the XNexusTools.py
 python3 XNexusTools.py
 
-keep in mind that you want to run this code please follow my license.
+keep in mind if you want to run this program, please follow the license regulation.
 
 I hope you like it, if you don't mind you can donate to me.
 If you want contact me at srobincarl@gmail.com. This is for my tuition.
