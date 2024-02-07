@@ -3,3 +3,5 @@ pytesseract
 scipy
 numpy
 yt_dlp
+scikit-image
+speech-recognition
