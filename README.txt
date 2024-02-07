@@ -16,7 +16,7 @@ Before using this software, ensure that you have the following requirements inst
 
 If you haven't installed Python and pip yet, please visit the official Python website for installation instructions.
 
-For installing Tesseract-OCR, you can visit their official website and follow the documentation on how to install it for your system. It's straightforward if you follow the steps. Here's the website:  [Tesseract-ocr Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html). Additionally, if you haven't installed FFmpeg, you can visit their website at [FFmpeg](ffmpeg.org)
+For installing Tesseract-OCR, you can visit their official website and follow the documentation on how to install it for your system. It's straightforward if you follow the steps. Here's the website:  [Tesseract-ocr Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html). Additionally, if you haven't installed FFmpeg, you can visit their website at [FFmpeg](https://ffmpeg.org)
 .
 
 After installing Python, make sure that pip (Python's package installer) is also installed. If not, follow the installation instructions provided on the Python website.
