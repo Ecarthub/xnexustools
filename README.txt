@@ -11,6 +11,8 @@ Before using this software, make sure you have the following requirements instal
 5. NumPy
 6. Yt_dlp
 7. Pip python
+8. Scikit Image
+9. Speech Recognition
 
 If you haven't installed "Python" and "pip" yet, please visit the official "Python" and "pip" website for installation instructions.
 
@@ -23,6 +25,8 @@ Pytesseract: pip install pytesseract
 SciPy: pip install scipy
 NumPy: pip install numpy
 Yt_dlp: pip install yt_dlp
+Speech Recognition: pip install speech-recognition
+Scikit Image: pip install scikit-image
 
 or
 
@@ -32,7 +36,7 @@ cd XNexustools
 pip install -r requirements.txt
 
 to run the XNexusTools.py
-python3 xnexusTools.py
+python3 XNexusTools.py
 
 keep in mind if you want to run this program, please follow the license regulation.
 
