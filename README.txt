@@ -10,8 +10,9 @@ Before using this software, make sure you have the following requirements instal
 4. SciPy
 5. NumPy
 6. Yt_dlp
+7. Pip python
 
-If you haven't installed Python yet, please visit the official Python website for installation instructions.
+If you haven't installed "Python" and "pip" yet, please visit the official "Python" and "pip" website for installation instructions.
 
 After installing Python, ensure that pip (Python's package installer) is installed. If not, follow the installation instructions provided on the Python website.
 
