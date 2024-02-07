@@ -9,6 +9,7 @@ Before using this software, make sure you have the following requirements instal
 3. Pytesseract
 4. SciPy
 5. NumPy
+6. Yt_dlp
 
 If you haven't installed Python yet, please visit the official Python website for installation instructions.
 
@@ -20,6 +21,7 @@ OpenCV: pip install opencv-python
 Pytesseract: pip install pytesseract
 SciPy: pip install scipy
 NumPy: pip install numpy
+Yt_dlp: pip install yt_dlp
 
 or
 
