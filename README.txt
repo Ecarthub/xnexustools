@@ -32,7 +32,7 @@ cd XNexustools
 pip install -r requirements.txt
 
 to run the XNexusTools.py
-python3 XNexusTools.py
+python3 xnexusTools.py
 
 keep in mind if you want to run this program, please follow the license regulation.
 
