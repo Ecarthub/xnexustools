@@ -1,3 +1,4 @@
+
 import sys
 from PIL import Image
 import pytesseract
@@ -6,9 +7,11 @@ import cv2
 from scipy import ndimage
 from skimage import filters
 import speech_recognition as sr
-
+import yt_dlp
 # Path to the Tesseract executable (usually installed in /usr/bin/tesseract)
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+
+
 
 def close_windows():
     cv2.waitKey(0)
@@ -145,17 +148,34 @@ def option_2():
 def option_3():
     voice_to_text()
 
+def option_4():
+    # Download the video
+    vidurl = input('Enter the URL of the YouTube video: ')
+    quality = input('Input the quality you desire (e.g., 1080 or 2160): ')
+    output_path = input('Enter the full path where you want to save the video: ')
+
+    # Create a yt_dlp.YoutubeDL object with options for the desired video quality and MP4 format
+    ydl_opts = {
+        'format': f'bestvideo[height<={quality}]+bestaudio/best',
+        'outtmpl': output_path + '/%(title)s.%(ext)s',  # Output file name template with title and extension
+        'merge_output_format': 'mp4',    # Merge video and audio streams into MP4 format
+    }
+
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([vidurl])
+        
 def main_menu():
     print("XNexus Tools")
     print("1. Image convert to text")
     print("2. Apply Advanced Filters")
     print("3. Voice Convert to text")
-    print("4. Exit")
+    print('4. Youtube Downloader')
+    print("5. Exit")
 
 # Main program loop
 while True:
     main_menu()
-    choice = input("Enter your choice (1-4): ")
+    choice = input("Enter your choice (1-5): ")
 
     if choice == '1':
         option_1()
@@ -164,7 +184,9 @@ while True:
     elif choice == '3':
         option_3()
     elif choice == '4':
+        option_4()
+    elif choice == '5':
         print("Exiting program.")
         break
     else:
-        print("Invalid choice. Please enter a number from 1 to 4.")
+        print("Invalid choice. Please enter a number from 1 to 5.")
