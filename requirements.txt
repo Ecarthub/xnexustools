@@ -2,4 +2,4 @@ opencv-python
 pytesseract
 scipy
 numpy
-face-recognition
+yt_dlp
