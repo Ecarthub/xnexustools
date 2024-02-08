@@ -13,7 +13,7 @@ Before using this software, ensure that you have the following requirements inst
 9.Speech Recognition
 10.Tesseract-OCR
 11.FFmpeg
-
+12. PyAudio
 If you haven't installed Python and pip yet, please visit the official Python website for installation instructions.
 
 For installing Tesseract-OCR, you can visit their official website and follow the documentation on how to install it for your system. It's straightforward if you follow the steps. Here's the website:  [Tesseract-ocr Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html). Additionally, if you haven't installed FFmpeg, you can visit their website at [FFmpeg](https://ffmpeg.org)
@@ -30,7 +30,7 @@ NumPy: pip install numpy
 Yt_dlp: pip install yt_dlp
 Speech Recognition: pip install SpeechRecognition
 Scikit Image: pip install scikit-image
-
+PyAudio: pip install pyaudio
 Alternatively, you can clone the repository and install the dependencies using the provided requirements.txt file:
 
 Clone the repository: git clone https://github.com/Ecarthub/xnexustools.git
