@@ -5,3 +5,4 @@ numpy
 yt_dlp
 scikit-image
 SpeechRecognition
+pyaudio
