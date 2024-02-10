@@ -16,8 +16,7 @@ Before using this software, ensure that you have the following requirements inst
 12. PyAudio
 If you haven't installed Python and pip yet, please visit the official Python website for installation instructions.
 
-For installing Tesseract-OCR, you can visit their official website and follow the documentation on how to install it for your system. It's straightforward if you follow the steps. Here's the website:  [Tesseract-ocr Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html). Additionally, if you haven't installed FFmpeg, you can visit their website at [FFmpeg](https://ffmpeg.org)
-.
+For installing Tesseract-OCR, you can visit their official website and follow the documentation on how to install it for your system. It's straightforward if you follow the steps. Here's the website:  [Tesseract-ocr Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html). Additionally, if you haven't installed FFmpeg, you can visit their website at [FFmpeg](https://ffmpeg.org).
 
 After installing Python, make sure that pip (Python's package installer) is also installed. If not, follow the installation instructions provided on the Python website.
 
@@ -36,6 +35,7 @@ Alternatively, you can clone the repository and install the dependencies using t
 Clone the repository: git clone https://github.com/Ecarthub/xnexustools.git
 Navigate to the cloned directory: cd xnexustools
 Install dependencies: pip install -r requirements.txt
+(if you ever encountered some error installing pyaudio because of portaudio are not found. You can try it by going to there website then download and install portaudio on your computer. For website here's the link [portaudio.com]
 To run the XNexusTools.py script:
 
 Execute the script: python3 XNexusTools.py
